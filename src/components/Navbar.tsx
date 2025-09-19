@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-blue-800">
             <Code2 className="w-8 h-8" />
-            <span>Portfolio</span>
+            <span>Shubham’s Portfolio</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -67,8 +67,10 @@ const Navbar = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle navigation menu"
             className="md:hidden p-2 rounded-md text-gray-700 hover:text-blue-800 transition-colors"
           >
+
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>

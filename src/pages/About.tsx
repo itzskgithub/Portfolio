@@ -4,33 +4,28 @@ import { Code, Palette, Zap, Users, Award, BookOpen } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { name: 'JavaScript/TypeScript', level: 95 },
-    { name: 'React/Next.js', level: 90 },
-    { name: 'Node.js', level: 85 },
-    { name: 'Python', level: 80 },
-    { name: 'UI/UX Design', level: 75 },
-    { name: 'Database Design', level: 80 }
-  ];
+  { name: 'Java (Core + DSA)', level: 90 },
+  { name: 'React.js', level: 85 },
+  { name: 'Node.js & Express', level: 80 },
+  { name: 'SQL & DBMS', level: 80 },
+  { name: 'HTML, CSS, JavaScript', level: 95 },
+  { name: 'Git/GitHub', level: 85 }
+];
+
 
   const experience = [
-    {
-      title: 'Senior Frontend Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2022 - Present',
-      description: 'Leading frontend development for enterprise applications using React and TypeScript.'
-    },
-    {
-      title: 'Full-Stack Developer',
-      company: 'Creative Agency',
-      period: '2020 - 2022',
-      description: 'Built responsive web applications and RESTful APIs for various client projects.'
-    },
-    {
-      title: 'Junior Developer',
-      company: 'StartupCo',
-      period: '2019 - 2020',
-      description: 'Developed features for a SaaS platform using modern web technologies.'
-    }
+  {
+    title: 'SIH 2024 Finalist – Team Project',
+    company: 'Smart India Hackathon',
+    period: '2024',
+    description: 'Developed AquaVeda, a digital knowledge-sharing platform promoting water-efficient techniques with frontend, backend, APIs, and database integration.'
+  },
+  {
+    title: 'Web Development Intern',
+    company: 'InternPe',
+    period: '2024',
+    description: 'Built responsive e-commerce management dashboards using React, Node.js, and MySQL.'
+  },
   ];
 
   const values = [
@@ -71,9 +66,10 @@ const About = () => {
               About Me
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              I'm a passionate developer with 5+ years of experience creating digital solutions 
-              that make a difference. I love turning complex problems into simple, beautiful designs.
+              I’m a Computer Science Engineering student passionate about web development and problem-solving. 
+              I enjoy working on full-stack projects, solving DSA problems, and exploring new technologies.
             </p>
+
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -83,7 +79,7 @@ const About = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/myimg.jpg"
                 alt="Profile"
                 className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
               />
@@ -108,7 +104,7 @@ const About = () => {
               </p>
               <div className="flex items-center space-x-4">
                 <Award className="w-6 h-6 text-orange-500" />
-                <span className="text-gray-700">5+ Years Experience</span>
+                <span className="text-gray-700">4th Year CSE Student</span>
               </div>
               <div className="flex items-center space-x-4">
                 <BookOpen className="w-6 h-6 text-blue-500" />

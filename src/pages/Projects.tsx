@@ -8,35 +8,26 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform built with React and Node.js, featuring user authentication, payment processing, and admin dashboard.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      category: 'fullstack',
-      github: '#',
-      demo: '#'
+      title: 'TIC TAC TOE',
+      description: 'A classic Tic Tac Toe game built with React, featuring a responsive UI, two-player mode, and game state management for an interactive gameplay experience.',
+      image: '/public/TIC_TAC_TOE.png',
+      technologies: ['HTML','CSS','JS'],
+      category: 'frontend',
+      github: 'https://github.com/itzskgithub/Tic-Tac-Toe',
+      demo: 'https://tic-tac-toe-iota-liart.vercel.app/'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'TypeScript', 'Socket.io', 'PostgreSQL'],
+      title: 'ROCK_PAPER_SEISSOR',
+      description: 'A simple interactive Stone-Paper-Scissors game built with React, featuring player vs computer mode, instant results, and responsive UI.',
+      image: '/public/stone_paper_seissor.jpg',
+      technologies: ['HTML','CSS','JS'],
       category: 'frontend',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/itzskgithub/Stone_Paper_Seissor',
+      demo: 'https://stone-paper-seissor.vercel.app/'
     },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that displays current conditions and forecasts using external APIs with beautiful data visualizations.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Chart.js', 'API Integration', 'CSS3'],
-      category: 'frontend',
-      github: '#',
-      demo: '#'
-    },
-    {
+    
+    /*{
       id: 4,
       title: 'REST API Backend',
       description: 'A scalable REST API built with Node.js and Express, featuring authentication, rate limiting, and comprehensive documentation.',
@@ -46,7 +37,7 @@ const Projects = () => {
       github: '#',
       demo: '#'
     },
-    {
+    /*{
       id: 5,
       title: 'Portfolio Website',
       description: 'A responsive portfolio website showcasing my work with smooth animations, optimized performance, and modern design principles.',
@@ -55,8 +46,8 @@ const Projects = () => {
       category: 'frontend',
       github: '#',
       demo: '#'
-    },
-    {
+    },*/
+    /*{
       id: 6,
       title: 'Blog CMS',
       description: 'A headless CMS for managing blog content with a modern admin interface, content scheduling, and SEO optimization.',
@@ -65,7 +56,7 @@ const Projects = () => {
       category: 'fullstack',
       github: '#',
       demo: '#'
-    }
+    }*/
   ];
 
   const categories = [

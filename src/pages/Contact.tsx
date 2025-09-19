@@ -38,28 +38,23 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@example.com',
-      href: 'mailto:hello@example.com'
+      value: 'shubhampandey8969@gmail.com',
+      href: 'mailto:shubhampandey8969@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 8540918939',
+      href: 'tel:+91 8540918939'
     },
-    {
-      icon: MapPin,
-      title: 'Location',
-      value: 'San Francisco, CA',
-      href: '#'
-    }
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' }
-  ];
+  { icon: Github, href: 'https://github.com/itzskgithub', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/shubham-kumar-pandey-bbb15b272', label: 'LinkedIn' },
+  { icon: Twitter, href: 'https://x.com/Shubham67577657', label: 'Twitter' }
+];
+
 
   return (
     <div className="pt-16">

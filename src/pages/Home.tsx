@@ -33,7 +33,7 @@ const Home = () => {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Hi, I'm{' '}
                 <span className="bg-gradient-to-r from-blue-800 to-orange-500 bg-clip-text text-transparent">
-                  John Doe
+                  Shubham kumar pandey
                 </span>
               </h1>
               <p className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -60,7 +60,7 @@ const Home = () => {
 
             <motion.div variants={fadeInUp} className="flex justify-center space-x-6">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1igj5rZFj4WocMV4P6RhDjG6N-t8yH_Zj/view?usp=drive_link"
                 className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-200 hover:-translate-y-1"
               >
                 <Github className="w-6 h-6 text-gray-700" />
@@ -99,17 +99,17 @@ const Home = () => {
               {
                 title: 'Frontend Development',
                 description: 'React, TypeScript, Tailwind CSS, and modern JavaScript frameworks',
-                color: 'blue'
+                color: '#340aefff'
               },
               {
                 title: 'Backend Development',
                 description: 'Node.js, Python, databases, and RESTful API design',
-                color: 'orange'
+                color: '#f8a50aff'
               },
               {
                 title: 'UI/UX Design',
                 description: 'User-centered design, prototyping, and responsive layouts',
-                color: 'green'
+                color: '#38d926ff'
               }
             ].map((service, index) => (
               <motion.div
