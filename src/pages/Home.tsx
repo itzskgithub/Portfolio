@@ -50,7 +50,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <a
-                href="https://drive.google.com/file/d/1igj5rZFj4WocMV4P6RhDjG6N-t8yH_Zj/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1TxruQG-NbjdUUFtm0ycq-erWfO4l-iUI/view?usp=drive_link"
                 className="inline-flex items-center px-8 py-3 border-2 border-gray-300 text-gray-700 rounded-lg font-medium hover:border-gray-400 transition-colors duration-200"
               >
                 <Download className="mr-2 w-5 h-5" />
