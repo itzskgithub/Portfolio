@@ -57,7 +57,7 @@ const Projects = () => {
       title: 'Ai_wardrove',
       description:
         'An AI-powered wardrobe recommendation system that suggests outfits based on user preferences, using machine learning APIs for intelligent fashion insights.',
-      image: 'https://images.unsplash.com/photo-1521335629791-ce4aec67dd47',
+      image: 'https://plus.unsplash.com/premium_photo-1679056835084-7f21e64a3402?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHdhcmRyb3ZlfGVufDB8fDB8fHww',
       technologies: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'OpenAI API', 'AWS'],
       category: 'fullstack',
       github: 'https://github.com/itzskgithub/Ai-wardrove',
