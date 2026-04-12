@@ -27,15 +27,27 @@ const Projects = () => {
       demo: 'https://stone-paper-seissor.vercel.app/'
     },
     
-    /*{
-      id: 4,
-      title: 'REST API Backend',
-      description: 'A scalable REST API built with Node.js and Express, featuring authentication, rate limiting, and comprehensive documentation.',
-      image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Node.js', 'Express', 'JWT', 'Docker'],
-      category: 'backend',
-      github: '#',
-      demo: '#'
+    {
+      id: 3,
+      title: 'Job Search Portal',
+      description: 'A job search portal that connects job seekers with employers by providing a seamless platform to explore opportunities, apply for jobs, and manage applications efficiently.',
+      image: 'https://www.freepik.com/free-vector/job-vacancy-isolated-object-with-female-hr-manager-studying-resume-candidates-vacant-position-vector-illustration_40273658.htm#fromView=keyword&page=1&position=9&uuid=aa3cd1db-8837-4bfa-abdb-1b5901ce606d&query=Job+portal',
+      technologies: [
+    'React.js',
+    'Tailwind CSS',
+    'shadcn/ui',
+    'Framer Motion',
+    'React Router',
+    'Axios',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'JWT'
+    ]
+      category: 'fullstack',
+      github: 'https://github.com/itzskgithub/jobportal',
+      demo: 'https://jobportal1-nine.vercel.app/'
     },
     /*{
       id: 5,
