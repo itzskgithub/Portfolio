@@ -52,6 +52,17 @@ const Projects = () => {
       github: 'https://github.com/itzskgithub/jobportal',
       demo: 'https://jobportal1-nine.vercel.app/',
     },
+    {
+      id: 4,
+      title: 'Ai_wardrove',
+      description:
+        'An AI-powered wardrobe recommendation system that suggests outfits based on user preferences, using machine learning APIs for intelligent fashion insights.',
+      image: 'https://images.unsplash.com/photo-1521335629791-ce4aec67dd47',
+      technologies: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'OpenAI API', 'AWS'],
+      category: 'fullstack',
+      github: 'https://github.com/itzskgithub/Ai-wardrove',
+      demo: '#',
+    }
   ];
 
   const categories = [
