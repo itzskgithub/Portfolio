@@ -37,7 +37,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Full-Stack Developer & UI/UX Enthusiast crafting beautiful, functional digital experiences
+                Full-Stack Developer specializing in Next.js, React, TypeScript, and modern backend technologies, transforming ideas into responsive and user-friendly web applications.
               </p>
             </motion.div>
 
@@ -98,19 +98,22 @@ const Home = () => {
             {[
               {
                 title: 'Frontend Development',
-                description: 'React, TypeScript, Tailwind CSS, and modern JavaScript frameworks',
-                color: '#340aefff'
+                description:
+                  'Next.js, React, TypeScript, Tailwind CSS, and responsive web application development',
+                color: '#340aefff',
               },
               {
                 title: 'Backend Development',
-                description: 'Node.js, Python, databases, and RESTful API design',
-                color: '#f8a50aff'
+                description:
+                  'Node.js, Express.js, Appwrite, MongoDB, REST APIs, and authentication systems',
+                color: '#f8a50aff',
               },
               {
-                title: 'UI/UX Design',
-                description: 'User-centered design, prototyping, and responsive layouts',
-                color: '#38d926ff'
-              }
+                title: 'Problem Solving',
+                description:
+                  'Data Structures, Algorithms, Java, and building efficient software solutions',
+                color: '#38d926ff',
+              },
             ].map((service, index) => (
               <motion.div
                 key={index}

@@ -63,6 +63,27 @@ const Projects = () => {
       github: 'https://github.com/itzskgithub/Ai-wardrove',
       demo: '#',
     }
+    {
+      id: 4,
+      title: 'Next_Auth',
+      description:
+        'A secure full-stack authentication system built with Next.js and MongoDB. It features user registration, login, JWT-based authentication, password hashing with bcrypt, email verification and password recovery through Nodemailer, providing a complete and scalable user authentication solution.',
+      image: 'https://www.shutterstock.com/search/authentication',
+      technologies: ['Next.js',
+        'React',
+        'TypeScript',
+        'Tailwind CSS',
+        'Axios',
+        'MongoDB',
+        'Mongoose',
+        'Node.js',
+        'JWT Authentication',
+        'bcryptjs',
+        'Nodemailer',],
+      category: 'fullstack',
+      github: 'https://github.com/itzskgithub/Auth_Next',
+      demo: 'https://auth-next-sepia.vercel.app',
+    }
   ];
 
   const categories = [
@@ -105,11 +126,10 @@ const Projects = () => {
               key={category.id}
               onClick={() => setFilter(category.id)}
               whileHover={{ scale: 1.05 }}
-              className={`px-6 py-2 rounded-full ${
-                filter === category.id
+              className={`px-6 py-2 rounded-full ${filter === category.id
                   ? 'bg-blue-800 text-white'
                   : 'bg-gray-100'
-              }`}
+                }`}
             >
               <Filter className="inline w-4 h-4 mr-2" />
               {category.label}
