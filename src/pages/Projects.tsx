@@ -62,7 +62,7 @@ const Projects = () => {
       category: 'fullstack',
       github: 'https://github.com/itzskgithub/Ai-wardrove',
       demo: '#',
-    }
+    },
     {
       id: 4,
       title: 'Next_Auth',
