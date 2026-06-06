@@ -77,7 +77,7 @@ const Projects = () => {
       title: 'Next Auth',
       description:
         'A secure full-stack authentication system built with Next.js and MongoDB. It features user registration, login, JWT-based authentication, password hashing with bcrypt, email verification, and password recovery through Nodemailer.',
-      image: '/auth.png',
+      image: 'https://www.shutterstock.com/search/authentication',
       technologies: [
         'Next.js',
         'React',
