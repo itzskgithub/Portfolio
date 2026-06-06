@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'ROCK_PAPER_SCISSOR',
+      title: 'ROCK PAPER SCISSORS',
       description:
         'A simple interactive Stone-Paper-Scissors game built with React, featuring player vs computer mode, instant results, and responsive UI.',
       image: '/stone_paper_seissor.jpg',
@@ -54,22 +54,32 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Ai_wardrove',
+      title: 'AI Wardrobe',
       description:
         'An AI-powered wardrobe recommendation system that suggests outfits based on user preferences, using machine learning APIs for intelligent fashion insights.',
-      image: 'https://plus.unsplash.com/premium_photo-1679056835084-7f21e64a3402?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHdhcmRyb3ZlfGVufDB8fDB8fHww',
-      technologies: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'OpenAI API', 'AWS'],
+      image:
+        'https://plus.unsplash.com/premium_photo-1679056835084-7f21e64a3402?w=600&auto=format&fit=crop&q=60',
+      technologies: [
+        'React',
+        'TypeScript',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'OpenAI API',
+        'AWS',
+      ],
       category: 'fullstack',
       github: 'https://github.com/itzskgithub/Ai-wardrove',
       demo: '#',
     },
     {
-      id: 4,
-      title: 'Next_Auth',
+      id: 5,
+      title: 'Next Auth',
       description:
-        'A secure full-stack authentication system built with Next.js and MongoDB. It features user registration, login, JWT-based authentication, password hashing with bcrypt, email verification and password recovery through Nodemailer, providing a complete and scalable user authentication solution.',
-      image: 'https://www.shutterstock.com/search/authentication',
-      technologies: ['Next.js',
+        'A secure full-stack authentication system built with Next.js and MongoDB. It features user registration, login, JWT-based authentication, password hashing with bcrypt, email verification, and password recovery through Nodemailer.',
+      image: '/auth.png',
+      technologies: [
+        'Next.js',
         'React',
         'TypeScript',
         'Tailwind CSS',
@@ -79,11 +89,12 @@ const Projects = () => {
         'Node.js',
         'JWT Authentication',
         'bcryptjs',
-        'Nodemailer',],
+        'Nodemailer',
+      ],
       category: 'fullstack',
       github: 'https://github.com/itzskgithub/Auth_Next',
       demo: 'https://auth-next-sepia.vercel.app',
-    }
+    },
   ];
 
   const categories = [
@@ -110,9 +121,10 @@ const Projects = () => {
             <h1 className="text-4xl font-bold text-gray-900 mb-6">
               My Projects
             </h1>
+
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               A collection of projects that showcase my skills and passion for
-              creating innovative digital solutions
+              creating innovative digital solutions.
             </p>
           </motion.div>
         </div>
@@ -126,10 +138,11 @@ const Projects = () => {
               key={category.id}
               onClick={() => setFilter(category.id)}
               whileHover={{ scale: 1.05 }}
-              className={`px-6 py-2 rounded-full ${filter === category.id
+              className={`px-6 py-2 rounded-full transition ${
+                filter === category.id
                   ? 'bg-blue-800 text-white'
-                  : 'bg-gray-100'
-                }`}
+                  : 'bg-gray-100 text-gray-700'
+              }`}
             >
               <Filter className="inline w-4 h-4 mr-2" />
               {category.label}
@@ -157,13 +170,17 @@ const Projects = () => {
                 <h3 className="text-xl font-semibold mb-2">
                   {project.title}
                 </h3>
+
                 <p className="text-gray-600 mb-4">
                   {project.description}
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, i) => (
-                    <span key={i} className="bg-blue-100 px-3 py-1 text-sm rounded">
+                  {project.technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="bg-blue-100 text-blue-800 px-3 py-1 text-sm rounded"
+                    >
                       {tech}
                     </span>
                   ))}
@@ -174,18 +191,20 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1"
+                    className="flex items-center gap-1 text-gray-700 hover:text-black"
                   >
-                    <Github size={18} /> Code
+                    <Github size={18} />
+                    Code
                   </a>
 
                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-blue-700"
+                    className="flex items-center gap-1 text-blue-700 hover:text-blue-900"
                   >
-                    <ExternalLink size={18} /> Demo
+                    <ExternalLink size={18} />
+                    Demo
                   </a>
                 </div>
               </div>
